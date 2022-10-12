@@ -1,0 +1,62 @@
+.ptb25 {
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+.card {
+    border: 0;
+    background-color: transparent
+}
+
+.card-body {
+    background-color: #fff
+}
+
+.card-img-overlay {
+    position: static
+}
+
+.c-img {
+    text-align: center
+}
+
+.c-img img {
+    max-width: 275px
+}
+
+.card-img-overlay p {
+    padding: 0 23px 10px
+}
+
+.c-img {
+    text-align: center;
+    padding-top: 40px
+}
+
+.c-wrapper {
+    background: #111;
+    border-radius: calc(.90rem - 1px) calc(.90rem - 1px) 0 0
+}
+
+@media (max-width:767px) {
+    .card-deck.mx-auto {
+        margin: 0 auto!important;
+        width: 100%!important
+    }
+    .card-img,
+    .card-img-top,
+    .card-footer:last-child {
+        border-radius: 0!important
+    }
+    .card-deck .card {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0
+    }
+    .c-wrapper {
+        border-radius: 0
+    }
+    .container {
+        padding: 0
+    }
+}
